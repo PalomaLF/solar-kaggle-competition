@@ -1,10 +1,12 @@
-## Solar Energy (Kaggle compmetition)
+![pexels-pixabay-371917](https://github.com/PalomaLF/solar-kaggle-competition/assets/156684365/dc2b79a0-9305-4dec-9d55-6de1b55a9bce)
+
+# Solar Energy (Kaggle compmetition)
 
 **Use ML to predict solar radiation levels**
 
 _(Competition part of Ironhack Data Analytics bootcamp)_
 
-# Summary
+## Summary
 
 The goal of this competition is to train the best Machine Learning model to predict solar radiation, using RSME as error metric. We were all provided two CSV files, one for training and testing, and another one for the final prediction. 
 
@@ -23,7 +25,7 @@ The data provided was:
 - Data (date)
 - Time
 
-# Process
+## Process
 
 For each modele trained, I followed the same process: updloading, cleaning and processing the data, selecting different formats, units and columns for each iteration. For most of them I trained several models at the same time to compare results, althoug I always obtained the best ones using RandomForestRegressor for the sklearn library. 
 
